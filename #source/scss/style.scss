@@ -6,8 +6,8 @@
 /************************************************************
                 	FONTS
 ************************************************************/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+@import "fonts.scss";
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
 /************************************************************
                 	MIXIN
@@ -17,7 +17,7 @@
 /************************************************************
                 	VARIABLES
 ************************************************************/
-$maxWidth: 1170;
+$maxWidth: 950;
 
 /*---Пример использования миксинов-----------------
 ---1---Миксин адаптива шрифта (размер по макету, размер по 320px)
@@ -35,7 +35,7 @@ $maxWidth: 1170;
 
 //------Общие параметры---------------------------------------------
 body {
-	font-family: "Montserrat", "PT Serif", sans-serif;
+	font-family: "PT Sans", sans-serif;
 	font-size: 16px;
 	font-weight: 700;
 	background-color: #ffffff;
